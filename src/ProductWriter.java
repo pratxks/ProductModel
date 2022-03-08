@@ -58,7 +58,7 @@ public class ProductWriter
         // (may need to adjust for other IDE)
         // Not sure if the toolkit is thread safe...
         File workingDirectory = new File(System.getProperty("user.dir"));
-        Path file = Paths.get(workingDirectory.getPath() + "\\src\\ProductTestData.txt");
+        Path file = Paths.get(workingDirectory.getPath() + "/src/ProductTestData.txt");
 
         System.out.println(file);
         try
